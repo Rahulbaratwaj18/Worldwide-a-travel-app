@@ -1,5 +1,5 @@
 
-import { useCities } from "../Contexts/CitiesContext";
+import { useCities } from "../contexts/CitiesContext";
 import CountryItem from "./CountryItem";
 import styles from "./CountryList.module.css";
 import Message from "./Message";

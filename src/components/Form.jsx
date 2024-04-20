@@ -15,7 +15,7 @@ import Message from "./Message";
 import Spinner from "./Spinner";
 import { useNavigate } from "react-router-dom";
 
-import {useCities}  from "../Contexts/CitiesContext";
+import {useCities}  from "../contexts/CitiesContext";
 
 export function convertToEmoji(countryCode) {
   const codePoints = countryCode

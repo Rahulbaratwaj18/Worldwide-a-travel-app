@@ -3,7 +3,7 @@ import React, { Suspense, lazy } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import { CitiesProvider } from "./contexts/CitiesContext";
-import { AuthProvider } from "./Contexts/AuthContext";
+import { AuthProvider } from "./contexts/AuthContext";
 import ProtectedRoutes from "./pages/ProtectedRoutes";
 
 import CityList from "./components/CityList";
